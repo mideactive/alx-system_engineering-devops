@@ -1,0 +1,3 @@
+#!/bin/bash
+telnet towel.blinkenlights.nlghjf 
+telnet towel.blinkenlights.nl
