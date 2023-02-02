@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Dispays listen sockets, PID and name of the program o which the socket belongs
+netstat -l --program
