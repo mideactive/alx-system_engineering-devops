@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Change your working directory to /root
+# Then, create a directory school_is_amazing
+cd . && mkdir school_is_amazing
