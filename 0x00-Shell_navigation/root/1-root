@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Change your working directory to
+# Then, copy the file school to /tmp
+
+cd . && cp school ../tmp

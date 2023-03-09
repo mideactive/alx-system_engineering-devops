@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Change your working directory to /root
+# Then, rename the file old_school to new_school (in the same directory)
+cd . && mv old_school new_school
