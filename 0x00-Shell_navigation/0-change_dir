@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# change working directory
+# create a file in directory
+sudo bash && touch so_cool
