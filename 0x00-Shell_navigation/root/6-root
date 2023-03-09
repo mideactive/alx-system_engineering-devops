@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Change your working directory to /root
+# Then, remove the directory empty_directory
+cd . && rmdir empty_directory
