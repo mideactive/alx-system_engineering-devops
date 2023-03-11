@@ -17,7 +17,7 @@
      rm: deletes a file
      less: displays the contents of in text file
      cat: displays the contents in a file
-     file: displays the kind of file, eg text files etc
+     file: displays the kind of data a file contains.
      cp: copy from one file to another
      mv: move file contents from one location to another.
      
