@@ -15,8 +15,8 @@
      rmdir: deletes a dir
      touch: creates a file
      rm: deletes a file
-     less: displays the contents of in file
-     cat: displays the contents in a 
+     less: displays the contents of in text file
+     cat: displays the contents in a file
      file: displays the kind of file, eg text files etc
      cp: copy from one file to another
      mv: move file contents from one location to another.
