@@ -71,3 +71,7 @@ And hidden files (starting with .) *****
 
 
 
+##### 9. Bye bye My first directory
+##### Delete the directory my_first_directory that is in the /tmp directory.
+### Solution:
+#### [9-firstdirdeletion](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)(rmdir /tmp/my_first_directory): Deletes the my_first_directory dir from the /tmp dir.
