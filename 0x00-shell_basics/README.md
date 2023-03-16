@@ -138,3 +138,28 @@ And hidden files (starting with .) *****
 ##### You are only allowed to use two spaces (and lines) in your script, not more.
 ### Solution:
 [102-tree](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/102-tree)(mkdir -p welcome/to/school): The mkdir -p flag creates multiple dir inside a parents dir.
+
+
+
+
+##### 18. Life is a series of commas, not periods
+##### #advanced
+##### Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+##### Directory names should end with a slash (/)
+##### Files and directories starting with a dot (.) should be listed
+##### The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+##### Only digits and letters are used to sort; Digits should come first
+##### You can assume that all the files we will test with will have at least one letter or one digit
+##### The listing should end with a new line
+### Solution:
+[103-commas](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/103-commas)(ls -map | sort -d): lists the file given above.
+
+
+
+
+##### 19. File type: School
+#### Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+### Solution:
+[]()():
+
