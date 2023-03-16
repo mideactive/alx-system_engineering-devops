@@ -112,3 +112,12 @@ And hidden files (starting with .) *****
 ***** You can consider that all HTML files have the extension .html *****
 ### Solution:
 [14-copy_html](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/14-copy_html)(cp -u *.html ../): copy file to a file that is not exists or a newer version to the parrent dir.
+
+
+
+##### 15. Let’s move
+##### Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+##### You can assume that the directory /tmp/u will exist when we will run your script
+### Solution:
+[100-lets_move](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/100-lets_move)(mv [[:upper:]]* /tmp/u):Moves all file beginning with an uppercase letter ti the /tmp/dir.
