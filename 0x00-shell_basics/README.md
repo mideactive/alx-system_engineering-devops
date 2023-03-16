@@ -28,3 +28,9 @@
 ### Solution:
 #### [3-listfiles](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/3-listfiles)(ls -l): Lists the content of a working dir in a long format.
 
+
+##### 4. Hidden files
+##### Display current directory contents, including hidden files (starting with .). Use the long format.
+### Solution:
+#### [4-listmorefiles](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles)(ls -al): Lists current dir with hidden files in a long list.
+
