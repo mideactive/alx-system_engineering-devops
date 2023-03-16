@@ -103,3 +103,12 @@ And hidden files (starting with .) *****
 ##### Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working
 ### Solution:
 [13-symbolic_link](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/13-symbolic_link)(ln -s /bin/ls __ls__): Creates a simbolic link __ls__ that points to /bin/ls in the current woring dir.
+
+
+
+##### 14. Copy HTML files
+##### Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
+***** You can consider that all HTML files have the extension .html *****
+### Solution:
+[14-copy_html](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/14-copy_html)(cp -u *.html ../): copy file to a file that is not exists or a newer version to the parrent dir.
