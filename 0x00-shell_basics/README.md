@@ -75,3 +75,10 @@ And hidden files (starting with .) *****
 ##### Delete the directory my_first_directory that is in the /tmp directory.
 ### Solution:
 #### [9-firstdirdeletion](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)(rmdir /tmp/my_first_directory): Deletes the my_first_directory dir from the /tmp dir.
+
+
+
+##### 10. Back to the future
+##### Write a script that changes the working directory to the previous one.
+### Solution:
+[10-back](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back)(cd -): Changes the current woring dir to the previous one.
