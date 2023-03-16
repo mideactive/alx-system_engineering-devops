@@ -35,6 +35,7 @@
 #### [4-listmorefiles](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/4-listmorefiles)(ls -al): Lists current dir with hidden files in a long list.
 
 
+
 ##### 5. I love numbers
 ##### Display current directory contents.
 
@@ -43,3 +44,11 @@ with user and group IDs displayed numerically
 And hidden files (starting with .) *****
 ### Solution:
 [5-listfilesdigitonly](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/5-listfilesdigitonly)(ls -n -al): displays the content of the current working dir, with user's and group IDs displayed numerically, with hidden files.
+
+
+
+##### 6. Welcome
+##### Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+#### Solution:
+[6-firstdirectory](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory)(mkdir /tmp/my_first_directory): Creates a dir in the /tmp dir. 
+
