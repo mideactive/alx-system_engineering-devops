@@ -74,7 +74,8 @@ And hidden files (starting with .) *****
 ##### 9. Bye bye My first directory
 ##### Delete the directory my_first_directory that is in the /tmp directory.
 ### Solution:
-#### [9-firstdirdeletion](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)(rmdir /tmp/my_first_directory): Deletes the my_first_directory dir from the /tmp dir.
+#### [9-firstdirdeletion](https://
+github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/9-firstdirdeletion)(rmdir /tmp/my_first_directory): Deletes the my_first_directory dir from the /tmp dir.
 
 
 
@@ -82,3 +83,13 @@ And hidden files (starting with .) *****
 ##### Write a script that changes the working directory to the previous one.
 ### Solution:
 [10-back](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/10-back)(cd -): Changes the current woring dir to the previous one.
+
+
+
+##### 11. Lists
+##### Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+### Solution:
+[11-lists](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/11-lists)(ls -al . .. /boot): Lists hidden contents in a long format in specified dir.
+
+
+
