@@ -121,3 +121,10 @@ And hidden files (starting with .) *****
 ##### You can assume that the directory /tmp/u will exist when we will run your script
 ### Solution:
 [100-lets_move](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/100-lets_move)(mv [[:upper:]]* /tmp/u):Moves all file beginning with an uppercase letter ti the /tmp/dir.
+
+
+
+##### 16. Clean Emacs
+##### Create a script that deletes all files in the current working directory that end with the character ~.
+### Solution:
+[101-clean_emacs](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/101-clean_emacs)(rm *~): Deletes all files that ends with ~ .
