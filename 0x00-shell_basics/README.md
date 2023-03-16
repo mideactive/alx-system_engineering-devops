@@ -128,3 +128,13 @@ And hidden files (starting with .) *****
 ##### Create a script that deletes all files in the current working directory that end with the character ~.
 ### Solution:
 [101-clean_emacs](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/101-clean_emacs)(rm *~): Deletes all files that ends with ~ .
+
+
+
+##### 17. Tree
+##### #advanced
+##### Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+
+##### You are only allowed to use two spaces (and lines) in your script, not more.
+### Solution:
+[102-tree](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/102-tree)(mkdir -p welcome/to/school): The mkdir -p flag creates multiple dir inside a parents dir.
