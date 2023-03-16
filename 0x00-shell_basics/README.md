@@ -93,3 +93,7 @@ github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basic
 
 
 
+##### 12. File type
+##### Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+### Solution:
+#### [12-file_type](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/12-file_type)(file /tmp/iamafile): Prints out the type of file located in the /tmp dir.
