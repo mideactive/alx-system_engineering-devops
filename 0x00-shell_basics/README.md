@@ -52,3 +52,9 @@ And hidden files (starting with .) *****
 #### Solution:
 [6-firstdirectory](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/6-firstdirectory)(mkdir /tmp/my_first_directory): Creates a dir in the /tmp dir. 
 
+
+
+##### 7. Betty in my first directory
+##### Move the file betty from /tmp/ to /tmp/my_first_directory.
+### Solution:
+#### [7-movethatfile](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile)(mv /tmp/betty /tmp/my_first_directory): Moves a file that is inside the /tmp/ dir to a directory inside the /tmp/ dir.
