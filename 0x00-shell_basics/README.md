@@ -58,3 +58,16 @@ And hidden files (starting with .) *****
 ##### Move the file betty from /tmp/ to /tmp/my_first_directory.
 ### Solution:
 #### [7-movethatfile](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/7-movethatfile)(mv /tmp/betty /tmp/my_first_directory): Moves a file that is inside the /tmp/ dir to a directory inside the /tmp/ dir.
+
+
+
+
+##### 8. Bye bye Betty
+##### Delete the file betty.
+
+***** The file betty is in /tmp/my_first_directory *****
+### Solution:
+#### [8-firstdelete](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/8-firstdelete)(rm /tmp/my_first_directory/betty): deletes the file 'betty' from the /tmp/my_first_directory
+
+
+
