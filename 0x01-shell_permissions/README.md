@@ -30,4 +30,13 @@ All your files must be executable
       
 ### Solution: 
 
-[1-who_am_i](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i): The shell command whoami will print out the name of the current user
+[1-who_am_i](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i): The shell command 'whoami' will print out the name of the current user
+
+
+2. Groups
+
+            Write a script that prints all the groups the current user is part of.
+            
+#### Solution:
+
+[2-groups](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/2-groups): The shell command 'groups' will print all the group a user is part of.
