@@ -20,5 +20,6 @@ All your files must be executable
       You can assume that the user betty will exist when we will run your script
       
 Solution:
+
 [0-iam_betty](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty): The 'su' command followed by the name of an existing user will change the user to required one.
 
