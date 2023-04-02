@@ -19,7 +19,15 @@ All your files must be executable
       You should use exactly 8 characters for your command (+1 character for the new line)
       You can assume that the user betty will exist when we will run your script
       
-Solution:
+### Solution:
 
 [0-iam_betty](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty): The 'su' command followed by the name of an existing user will change the user to required one.
 
+
+##### 1. Who am I
+
+      Write a script that prints the effective username of the current user.
+      
+### Solution: 
+
+[1-who_am_i](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/1-who_am_i): The shell command whoami will print out the name of the current user
