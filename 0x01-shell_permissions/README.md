@@ -47,7 +47,8 @@ All your files must be executable
 
       Write a script that changes the owner of the file hello to the user betty.
       
-Solution:
+#### Solution:
+
 [3-new_owner](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/3-new_owner): 'chown owner file-name' changes the owner of a file to the one suplied.
 
 
@@ -55,7 +56,20 @@ Solution:
 
 Write a script that creates an empty file called hello.
 
-Solution:
+#### Solution:
+
 [4-empty](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/4-empty): the command 'touch <file_name>' creaates an empty file with the name supplied.
 
 
+##### 5. Execute
+
+      Write a script that adds execute permission to the owner of the file hello.
+
+            . The file hello will be in the working directory
+            
+#### Solution:
+
+[5-execute](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/5-execute): The command 'chmod u+x <file_name>' gives execute permission to owner when executed in the current working dir.
+            
+            
+            
