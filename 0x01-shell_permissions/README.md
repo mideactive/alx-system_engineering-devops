@@ -92,6 +92,6 @@ Write a script that creates an empty file called hello.
             
 #### Solution:
 
-[7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody):'chmod a+x <file_name>' gives permission to owner, group owner, and other users.
+[7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody):'chmod a+x <file_name>' or 'chmod 555 <file_name>' gives permission to owner, group owner, and other users.
 
 
