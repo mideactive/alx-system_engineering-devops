@@ -40,3 +40,13 @@ All your files must be executable
 #### Solution:
 
 [2-groups](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/2-groups): The shell command 'groups' will print all the group a user is part of.
+
+
+
+##### 3. New owner
+
+      Write a script that changes the owner of the file hello to the user betty.
+      
+Solution:
+[3-new_owner](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/3-new_owner): 'chown owner file-name' changes the owner of a file to the one suplied.
+
