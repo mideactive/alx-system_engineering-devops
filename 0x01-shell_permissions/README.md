@@ -141,3 +141,8 @@ Write a script that creates an empty file called hello.
 
 [11-directories_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions): 'chmod -R 711 */' grants execute to all users in subdirectories.
 
+##### 12. More directories
+
+      Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+
+#### Solution:
