@@ -127,4 +127,4 @@ Write a script that creates an empty file called hello.
             Regular files should not be changed.
             
 #### Solution:
-[](): 'chmod 777 --no-preserve-root */ 
+[](): 'chmod -R 
