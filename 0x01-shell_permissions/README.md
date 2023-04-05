@@ -108,3 +108,12 @@ Write a script that creates an empty file called hello.
 
 [8-James_Bond](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/8-James_Bond): 'chmod 7 <file_name>' add to all other users, except owner and group.
 
+
+##### 9. John Doe
+
+      Write a script that sets the mode of the file hello to this:
+
+            -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+            
+#### Solution:
+[9-John_Doe](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe):'chmod 753 <file_name>' set file permission to the above.
