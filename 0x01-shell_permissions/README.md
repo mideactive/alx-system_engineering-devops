@@ -95,3 +95,16 @@ Write a script that creates an empty file called hello.
 [7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody):'chmod a+x <file_name>' or 'chmod 555 <file_name>' gives permission to owner, group owner, and other users.
 
 
+##### 8. James Bond
+
+      Write a script that sets the permission to the file hello as follows:
+
+            Owner: no permission at all
+            Group: no permission at all
+            Other users: all the permissions
+            The file hello will be in the working directory You are not allowed to use commas for this script
+            
+#### Solution:
+
+[8-James_Bond](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/8-James_Bond): 'chmod 7 <file_name>' add to all other users, except owner and group.
+
