@@ -72,4 +72,14 @@ Write a script that creates an empty file called hello.
 [5-execute](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/5-execute): The command 'chmod u+x <file_name>' gives execute permission to owner when executed in the current working dir.
             
             
+##### 6. Multiple permissions
+
+      Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+
+            The file hello will be in the working directory
             
+#### Solution:
+
+[6-multiple_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/6-multiple_permissions): 'chmod 554 <file_name>' grants execute permission to owner, group owner, and readonly to others.
+
+
