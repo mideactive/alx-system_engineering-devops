@@ -119,6 +119,17 @@ Write a script that creates an empty file called hello.
 [9-John_Doe](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe):'chmod 753 <file_name>' set file permission to the above.
 
 
+##### 10. Look in the mirror
+
+      Write a script that sets the mode of the file hello the same as olleh’s mode.
+
+            The file hello will be in the working directory
+            The file olleh will be in the working directory
+            
+#### Solution:
+
+[10-mirror_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/10-mirror_permissions): 'chmod --reference=<file1> <file2>' will use file1 permission for file2 also.
+
 
 ##### 11. Directories
 
@@ -129,3 +140,4 @@ Write a script that creates an empty file called hello.
 #### Solution:
 
 [11-directories_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions): 'chmod -R 711 */' grants execute to all users in subdirectories.
+
