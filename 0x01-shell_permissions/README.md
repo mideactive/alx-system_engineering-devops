@@ -83,3 +83,15 @@ Write a script that creates an empty file called hello.
 [6-multiple_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/6-multiple_permissions): 'chmod 554 <file_name>' grants execute permission to owner, group owner, and readonly to others.
 
 
+##### 7. Everybody!
+
+      Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+
+            The file hello will be in the working directory
+            You are not allowed to use commas for this script
+            
+#### Solution:
+
+[7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody):'chmod a+x <file_name>' gives permission to owner, group owner, and other users.
+
+
