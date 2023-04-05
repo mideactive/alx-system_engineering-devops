@@ -117,3 +117,14 @@ Write a script that creates an empty file called hello.
             
 #### Solution:
 [9-John_Doe](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe):'chmod 753 <file_name>' set file permission to the above.
+
+
+
+##### 11. Directories
+
+      Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+
+            Regular files should not be changed.
+            
+#### Solution:
+[](): 'chmod 777 --no-preserve-root */ 
