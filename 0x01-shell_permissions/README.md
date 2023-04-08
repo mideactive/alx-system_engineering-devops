@@ -180,3 +180,15 @@ Write a script that creates an empty file called hello.
 ##### Solution:
 
 [101-symbolic_link_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/101-symbolic_link_permissions): 'chown -h < owner_name:grp_owner_name > _symbolic_link_filename' will change the owner and group owner of a symbolic link.
+
+      
+      
+##### 16. If only
+
+      Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+            The file hello will be in the working directory
+      
+#### Solution:
+
+[102-if_only](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/102-if_only): 'chown --from=< owner_name > < new-owner > < file_name >' will file owner to new owner if only, the file belongs to owner_name.    
