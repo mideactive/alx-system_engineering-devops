@@ -167,3 +167,16 @@ Write a script that creates an empty file called hello.
 #### Solution:
       
 [100-change_owner_and_group](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/100-change_owner_and_group): 'chown -hR < owner_name:grp_owner_name >' will change all owner to owner_name, and group owner to grp_owner_name.      
+
+
+
+##### 15. Symbolic links
+
+      Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
+
+            The file _hello is in the working directory
+            The file _hello is a symbolic link
+            
+##### Solution:
+
+[101-symbolic_link_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/101-symbolic_link_permissions): 'chown -h < owner_name:grp_owner_name > _simbolic_link_filename' will change the owner and group owner of a simbolic link.
