@@ -92,7 +92,7 @@ Write a script that creates an empty file called hello.
             
 #### Solution:
 
-[7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody):'chmod a+x <file_name>' or 'chmod 555 <file_name>' gives permission to owner, group owner, and other users.
+[7-everybody](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody): 'chmod a+x <file_name>' or 'chmod 555 <file_name>' gives permission to owner, group owner, and other users.
 
 
 ##### 8. James Bond
@@ -116,7 +116,7 @@ Write a script that creates an empty file called hello.
             -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
             
 #### Solution:
-[9-John_Doe](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe):'chmod 753 <file_name>' set file permission to the above.
+[9-John_Doe](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe): 'chmod 753 <file_name>' set file permission to the above.
 
 
 ##### 10. Look in the mirror
@@ -139,10 +139,14 @@ Write a script that creates an empty file called hello.
             
 #### Solution:
 
-[11-directories_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions): 'chmod -R 711 */' grants execute to all users in subdirectories.
+[11-directories_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions):   'chmod -R 711 */' grants execute to all users in subdirectories.
 
 ##### 12. More directories
 
       Create a script that creates a directory called my_dir with permissions 751 in the working directory.
 
 #### Solution:
+[12-directory_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/12-directory_permissions): 'mkdir -m 751 < dir_name >' will create a dir called the < dir_name > with the 751 permission.
+      
+      
+      
