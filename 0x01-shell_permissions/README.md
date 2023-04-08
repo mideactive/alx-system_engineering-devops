@@ -179,4 +179,4 @@ Write a script that creates an empty file called hello.
             
 ##### Solution:
 
-[101-symbolic_link_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/101-symbolic_link_permissions): 'chown -h < owner_name:grp_owner_name > _simbolic_link_filename' will change the owner and group owner of a simbolic link.
+[101-symbolic_link_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/101-symbolic_link_permissions): 'chown -h < owner_name:grp_owner_name > _symbolic_link_filename' will change the owner and group owner of a symbolic link.
