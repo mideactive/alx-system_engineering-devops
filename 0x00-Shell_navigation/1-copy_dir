@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# change dir to root
+# copy school /tmp
+sudo bash && cp school /tmp
