@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# change dir to root
+# delete file ready_to_be_removed
+sudo bash && rm ready_to_be_removed
