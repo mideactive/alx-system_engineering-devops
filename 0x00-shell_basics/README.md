@@ -165,13 +165,16 @@ And hidden files (starting with .) *****
 ##### You can assume that all the files we will test with will have at least one letter or one digit
 ##### The listing should end with a new line
 ### Solution:
-[103-commas](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/103-commas)(ls -map | sort -d): lists the file given above.
+[103-commas](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/103-commas)(ls -map | sort -d): lists the file and directory in the speciic order given above.
 
 
 
 
 ##### 19. File type: School
-#### Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
-### Solution:
-[]()():
 
+#### Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+
+### Solution:
+
+[school.mgc](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x00-shell_basics/school.mgc): '0 string SCHOOL school
+       !:mime School' is the pertern for our magic file, while 'file -C -m school.mgc' will create the magic file that can be used to 'file' command to detect 'School'. 
