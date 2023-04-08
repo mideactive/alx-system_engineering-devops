@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# change dir to root
+# rename old_school to new_school
+sudo bash && rm old_school new_school
