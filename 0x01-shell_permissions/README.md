@@ -149,4 +149,16 @@ Write a script that creates an empty file called hello.
 [12-directory_permissions](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/12-directory_permissions): 'mkdir -m 751 < dir_name >' will create a dir called the < dir_name > with the 751 permission.
       
       
+##### 13. Change group
+
+      Write a script that changes the group owner to school for the file hello
+
+            The file hello will be in the working directory
+      
+#### Solution:
+
+[13-change_group](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/13-change_group): 'chown < owner_name > < file_name >' this commad will give file ownership to < owner_name >.
+      
+ 
+      
       
