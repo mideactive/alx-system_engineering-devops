@@ -192,3 +192,13 @@ Write a script that creates an empty file called hello.
 #### Solution:
 
 [102-if_only](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/102-if_only): 'chown --from=< owner_name > < new-owner > < file_name >' will file owner to new owner if only, the file belongs to owner_name.    
+
+      
+      
+##### 17. Star Wars
+
+      Write a script that will play the StarWars IV episode in the terminal.
+      
+#### Solution:
+      
+[103-Star_Wars](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x01-shell_permissions/103-Star_Wars): 'telnet towel.blinenlights.nl' will play StarsWars IV episode in the terminal.      
