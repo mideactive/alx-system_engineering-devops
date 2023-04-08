@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# Change to root
+# move file not_here to /tmp/right_school
+sudo bash && mv not_her /tmp/right_school
