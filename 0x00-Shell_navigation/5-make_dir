@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# change dir to root
+# make dir school_is_amazing
+sudo bash && mkdir school_is_amazing
