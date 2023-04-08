@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+# change dir to root
+# remove dir empty_directory
+sudo bash && rmdir empty_directory
