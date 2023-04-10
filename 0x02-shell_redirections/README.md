@@ -174,4 +174,10 @@ You are not allowed to use sed or awk
 [15-countthatword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/15-countthatword): 'grep 'bin' /etc/passwd | wc -l' or 'cat /etc/passwd | grep 'bin' | wc -l' will display the number of lines that contains 'bin' in the /etc/passwd file.
 
 
+##### 16. What's next?
 
+    Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+    
+#### Solution:
+
+[16-whatsnext](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/16-whatsnext): 'grep -A 3 /etc/passwd' will display lines containing 'root', and also 3 lines after it.
