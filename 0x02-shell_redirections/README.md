@@ -66,3 +66,16 @@ You are not allowed to use sed or awk
 
 [5-firstlines](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/5-firstlines): 'head -n 10 /etc/passwd' will display the first ten lines in the file.
 
+
+##### 6. Line #2
+
+    Write a script that displays the third line of the file iacta.
+
+        The file iacta will be in the working directory
+        
+        You’re not allowed to use sed
+        
+#### Solution:
+
+[6-third_line](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/6-third_line): 'head -n 3 < file_name > | tail -n 1' will return only the third line in a file.
+
