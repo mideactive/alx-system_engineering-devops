@@ -190,3 +190,14 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [17-hidethisword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/17-hidethisword): 'grep -v 'bin' /etc/passwd' will display lines not containing the word 'bin'.
+
+
+##### 18. Letters only please
+
+    Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+
+        include capital letters as well
+        
+#### Solution:
+
+[18-letteronly](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/18-letteronly): 'grep '^[[:alpha:]]' /etc/ssh/sshd_config' or 'grep -i "^[a-z]" /etc/ssh/sshd_config' will display all lines in the file starting with a letter.
