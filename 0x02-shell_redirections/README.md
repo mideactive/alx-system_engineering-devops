@@ -85,7 +85,7 @@ You are not allowed to use sed or awk
     Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
     
 #### Solution:
-[7-file](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/7-file): "echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'" the 'echo' and output redirection '>' operator will create the file name, and output the data into the excaped file.
+[7-file](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/7-file): "echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'" the 'echo' and output redirection '>' operator will create the file name, and output the data into the escaped file.
 
 
 ##### 8. Save current state of directory
