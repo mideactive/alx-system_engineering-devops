@@ -95,3 +95,14 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [8-cwd_state](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/8-cwd_state): 'ls -al > <file_name>' will redirect the output of the list into the  file_name.
+
+
+##### 9. Duplicate last line
+
+    Write a script that duplicates the last line of the file iacta
+
+        The file iacta will be in the working directory
+        
+#### Solution:
+
+[9-duplicate_last_line](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/9-duplicate_last_line): 'tail -n 1 <file_name> >> <file_name>' the 'tail' command used with the append operator '>>' will duplicate the last line in the file. 
