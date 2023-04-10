@@ -127,3 +127,17 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [11-directories](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/11-directories): 'find ./* -type d -print | wc -l' displays and count all dir and sub-dir in dir which includes hidden files.
+
+
+##### 12. What’s new
+
+    Create a script that displays the 10 newest files in the current directory.
+
+        Requirements:
+
+            One file per line
+            Sorted from the newest to the oldest
+            
+#### Solution:
+
+[12-newest_files](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/12-newest_files): 'ls -t | head' will display newest 10 files from the current dir, and sort from newest to old.
