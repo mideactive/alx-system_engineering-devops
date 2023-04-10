@@ -55,4 +55,14 @@ You are not allowed to use sed or awk
     
 #### Solution:
 
-[4-lastlines](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines): 'tail -n 10 /etc/passwd' displays the last 10 lines of a file.
+[4-lastlines](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines): 'tail -n 10 /etc/passwd' displays the last 10 lines in a file.
+
+
+##### 5. I'd prefer the first ones actually
+
+    Display the first 10 lines of /etc/passwd
+    
+#### Solution:
+
+[5-firstlines](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/5-firstlines): 'head -n 10 /etc/passwd' will display the first ten lines in the file.
+
