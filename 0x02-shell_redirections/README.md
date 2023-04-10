@@ -154,3 +154,13 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [13-unique](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/13-unique): 'sort list | uniq -u' this script will return only one instance of value in the list.
+
+
+##### 14. It must be in that file
+
+    Display lines containing the pattern “root” from the file /etc/passwd
+    
+#### Solution:
+
+[14-findthatword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/14-findthatword): "cat /etc/passwd | grep 'root'" or "grep 'root' /etc/passwd" displays the file content in '/etc/passwd' and hights the all instance of 'root'
+
