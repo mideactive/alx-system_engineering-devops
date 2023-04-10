@@ -38,3 +38,14 @@ You are not allowed to use sed or awk
     
 #### Solution:
 [2-hellofile](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/2-hellofile): 'cat /etc/passwd' 'cat' command will display the passwd file, inside the /etc dir in text on a standard output.
+
+
+##### 3. What about 2?
+
+    Display the content of /etc/passwd and /etc/hosts
+    
+#### Solution:
+
+[3-twofiles](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/3-twofiles): 'cat /etc/passwd && cat /etc/hosts' the 'cat' command displays the a file, while the '&&' operators makes it possible to display multiple files.
+
+
