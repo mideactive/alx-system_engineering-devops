@@ -117,3 +117,13 @@ You are not allowed to use sed or awk
 [10-no_more_js](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/10-no_more_js): 'find . -type f -name "*.js" -delete' will delete all .js files in dir and sub-dir.
 
 
+##### 11. Don't just count your directories, make your directories count
+
+    Write a script that counts the number of directories and sub-directories in the current directory.
+
+    The current and parent directories should not be taken into account
+    Hidden directories should be counted
+    
+#### Solution:
+
+[11-directories](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/11-directories): 'find ./* -type d -print | wc -l' displays and count all dir and sub-dir in dir which includes hidden files.
