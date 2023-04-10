@@ -106,3 +106,14 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [9-duplicate_last_line](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/9-duplicate_last_line): 'tail -n 1 <file_name> >> <file_name>' the 'tail' command used with the append operator '>>' will duplicate the last line in the file. 
+
+
+##### 10. No more javascript
+
+    Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its      subfolders.
+    
+#### Solution:
+
+[10-no_more_js](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/10-no_more_js): 'find . -type f -name "*.js" -delete' will delete all .js files in dir and sub-dir.
+
+
