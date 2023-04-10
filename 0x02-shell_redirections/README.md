@@ -79,3 +79,10 @@ You are not allowed to use sed or awk
 
 [6-third_line](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/6-third_line): 'head -n 3 < file_name > | tail -n 1' will return only the third line in a file.
 
+
+##### 7. It is a good file that cuts iron without making a noise
+
+    Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+    
+#### Solution:
+[7-file](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/7-file): "echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'" the 'echo' and output redirection '>' operator will create the file name, and output the data into the file.
