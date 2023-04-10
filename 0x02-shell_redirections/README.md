@@ -164,3 +164,14 @@ You are not allowed to use sed or awk
 
 [14-findthatword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/14-findthatword): "cat /etc/passwd | grep 'root'" or "grep 'root' /etc/passwd" displays the file content in '/etc/passwd' and hights the all instance of 'root'
 
+
+##### 15. Count that word
+
+    Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+    
+#### Solution:
+
+[15-countthatword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/15-countthatword): 'grep 'bin' /etc/passwd | wc -l' or 'cat /etc/passwd | grep 'bin' | wc -l' will display the number of lines that contains 'bin' in the /etc/passwd file.
+
+
+
