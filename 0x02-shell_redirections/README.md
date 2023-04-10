@@ -29,5 +29,5 @@ You are not allowed to use sed or awk
     
 #### Solution:
 
-[1-confused_smiley](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley): 'echo "\"(Ôo)'" ' echo will print the quoted sign using an escape character '\'.
+[1-confused_smiley](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley): 'echo "\\"(Ôo)'" ' echo will print the quoted sign using an escape character '\\'.
 
