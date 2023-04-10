@@ -31,3 +31,10 @@ You are not allowed to use sed or awk
 
 [1-confused_smiley](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley): 'echo "\\"(Ôo)'" ' echo will print the quoted sign using an escape character '\\'.
 
+
+##### 2. Let's display a file
+
+    Display the content of the /etc/passwd file.
+    
+#### Solution:
+[2-hellofile](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/2-hellofile): 'cat /etc/passwd' 'cat' command will display the passwd file, inside the /etc dir in text on a standard output.
