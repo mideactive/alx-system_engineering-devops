@@ -181,3 +181,12 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [16-whatsnext](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/16-whatsnext): 'grep -A 3 /etc/passwd' will display lines containing 'root', and also 3 lines after it.
+
+
+##### 17. I hate bins
+
+    Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+    
+#### Solution:
+
+[17-hidethisword](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/17-hidethisword): 'grep -v 'bin' /etc/passwd' will display lines not containing the word 'bin'.
