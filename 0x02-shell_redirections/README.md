@@ -141,3 +141,16 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [12-newest_files](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/12-newest_files): 'ls -t | head' will display newest 10 files from the current dir, and sort from newest to old.
+
+
+##### 13. Being unique is better than being perfect
+
+    Create a script that takes a list of words as input and prints only words that appear exactly once.
+
+        Input format: One line, one word
+        Output format: One line, one word
+        Words should be sorted
+        
+#### Solution:
+
+[13-unique](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/13-unique): 'sort list | uniq -u' this script will return only one instance of value in the list.
