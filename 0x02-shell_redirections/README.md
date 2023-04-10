@@ -49,3 +49,10 @@ You are not allowed to use sed or awk
 [3-twofiles](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/3-twofiles): 'cat /etc/passwd && cat /etc/hosts' the 'cat' command displays the a file, while the '&&' operators makes it possible to display multiple files.
 
 
+##### 4. Last lines of a file
+
+    Display the last 10 lines of /etc/passwd
+    
+#### Solution:
+
+[4-lastlines](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/4-lastlines): 'tail -n 10 /etc/passwd' displays the last 10 lines of a file.
