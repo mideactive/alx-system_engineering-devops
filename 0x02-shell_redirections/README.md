@@ -21,3 +21,12 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [0-hello_world](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world): 'echo "Hello, World"' the 'echo' commad will output the sentence to the standard output.
+
+
+##### 1. Confused smiley
+
+    Write a script that displays a confused smiley "(Ôo)'.
+    
+#### Solution:
+
+[1-confused_smiley](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/1-confused_smiley): 'echo "\"(Ôo)'" ' echo will print the quoted sign using an escape character '\'.
