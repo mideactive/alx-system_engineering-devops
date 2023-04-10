@@ -86,3 +86,12 @@ You are not allowed to use sed or awk
     
 #### Solution:
 [7-file](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/7-file): "echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'" the 'echo' and output redirection '>' operator will create the file name, and output the data into the excaped file.
+
+
+##### 8. Save current state of directory
+
+    Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be         overwritten. If the file ls_cwd_content does not exist, create it.
+    
+#### Solution:
+
+[8-cwd_state](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/8-cwd_state): 'ls -al > <file_name>' will redirect the output of the list into the  file_name.
