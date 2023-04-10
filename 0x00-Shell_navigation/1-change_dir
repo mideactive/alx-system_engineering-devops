@@ -1,4 +1,0 @@
-#!/usr/bin/bash
-# change working dir to root
-# copy file school to /tmp
-sudo bash && cp schoo /tmp
