@@ -256,3 +256,20 @@ You are not allowed to use sed or awk
 [100-empty_casks](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks): 'find . -empty | rev | cut -d '/' -f 1 | rev' this will list all empty files, dir int the current dir, and all sub-dirs. And the rules requested above will be followed. 
 
 
+##### 24. A gif is worth ten thousand words
+
+    Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+    Hidden files should be listed
+    Only regular files (not directories) should be listed
+    The names of the files should be displayed without their extensions
+    The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a,     and file Rona should be listed after file jay)
+    One file name per line
+    The listing should end with a new line
+    You are not allowed to use basename, grep, egrep, fgrep or rgrep
+    
+# Solution:
+
+[101-gifs](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/101-gifs): "find . -type f -name '*.gif' -printf "%f\n | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f" 
+
+
