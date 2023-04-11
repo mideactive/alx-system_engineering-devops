@@ -254,3 +254,5 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [100-empty_casks](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks): 'find . -empty | rev | cut -d '/' -f 1 | rev' this will list all empty files, dir int the current dir, and all sub-dirs. And the rules requested above will be followed. 
+
+
