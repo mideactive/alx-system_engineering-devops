@@ -209,5 +209,7 @@ You are not allowed to use sed or awk
     
 #### Solution:
 
-[]()
+[19-AZ](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/19-AZ): 'echo "input" | tr 'char(s) to be replaced' 'new char(s)' the 'tr' command will truncate the characters pipped to it by the 'echo' command, and replace characters appropriately.
+
+
 
