@@ -220,3 +220,11 @@ You are not allowed to use sed or awk
 
 [20-hiago](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/20-hiago): 'echo "input" | tr -d "char(s) to be deleted"' 'tr' with the '-d' flag will delete character(s) passed to it by the 'echo' command appropriately.
 
+
+##### 21. esreveR
+
+    Write a script that reverse its input.
+    
+#### Solution:
+
+[21-reverse](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse): "echo 'word(s)' | rev" the 'rev' command reverses word(s) pipped to it by an input.
