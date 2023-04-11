@@ -241,4 +241,16 @@ You are not allowed to use sed or awk
 [22-users_and_homes](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes): 'cut -d":" -f 1,6 /etc/passwd | sort' will display and sort all users and their home dir.
 
 
+##### 23. Empty casks make the most noise
 
+    Write a command that finds all empty files and directories in the current directory and all sub-directories.
+
+    Only the names of the files and directories should be displayed (not the entire path)
+    Hidden files should be listed
+    One file name per line
+    The listing should end with a new line
+    You are not allowed to use basename, grep, egrep, fgrep or rgrep
+    
+#### Solution:
+
+[100-empty_casks](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks): 'find . -empty | rev | cut -d '/' -f 1 | rev' this will list all empty files, dir int the current dir, and all sub-dirs. And the rules requested above will be followed. 
