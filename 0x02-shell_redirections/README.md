@@ -239,3 +239,6 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [22-users_and_homes](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes): 'cut -d":" -f 1,6 /etc/passwd | sort' will display and sort all users and their home dir.
+
+
+
