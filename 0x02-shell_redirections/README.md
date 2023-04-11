@@ -228,3 +228,14 @@ You are not allowed to use sed or awk
 #### Solution:
 
 [21-reverse](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/21-reverse): "echo 'word(s)' | rev" the 'rev' command reverses word(s) pipped to it by an input.
+
+
+##### 22. DJ Cut Killer
+
+    Write a script that displays all users and their home directories, sorted by users.
+
+        Based on the the /etc/passwd file
+        
+#### Solution:
+
+[22-users_and_homes](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/22-users_and_homes): 'cat $USER /etc/passwd | sort' will display and sort all users and their home dir.
