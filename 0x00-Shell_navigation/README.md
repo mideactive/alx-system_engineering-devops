@@ -4,8 +4,8 @@
 #### This project was my first project at ALx Africa, it's basically about navigation through the shell environment.
 
 |                 |                                                                              |
-
-|Commanad Synopsis            use                                                                |
+|-----------------|------------------------------------------------------------------------------|
+|Commanad Synopsis|            use                                                                |
 |-----------------|------------------------------------------------------------------------------|
 |cd               |      change directry                                                         |
 |-----------------|------------------------------------------------------------------------------|
