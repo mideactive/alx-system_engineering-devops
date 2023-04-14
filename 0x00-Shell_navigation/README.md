@@ -36,5 +36,12 @@
      |------------------------------------------------------------------------------------------|
      |mv         |      move file contents from one location to another.
      
+     
+     | Column 1 | Column 2 | Column 3 |
+| --- | --- | --- |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+
+     
 ##### Though there are much more Linux commands, but this are the very few that was used or this project.
      
