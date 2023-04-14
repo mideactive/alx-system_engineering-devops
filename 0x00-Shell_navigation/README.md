@@ -18,8 +18,7 @@
 |cat         |                            |displays the contents in a file                  |
 |file        |                            |displays the kind of data a file contains        |
 |cp          |                            |copy from one file to another                    |
-|mv          |                            |move file contents from one location to another  |
-|------------|----------------------------|-------------------------------------------------|     
+|mv          |                            |move file contents from one location to another  |     
      
      
 | Column 1 | Column 2 | Column 3 |
