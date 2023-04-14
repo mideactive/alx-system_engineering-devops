@@ -8,7 +8,7 @@
 |Commanad    | Synopsis                   |            uses                                 |
 |------------|----------------------------|-------------------------------------------------|
 |cd          |[-L|[-P [-e]] [-@]] [dir]   |change shell woring directry                     |
-|pwd         |                            |That prints the current working dir              |
+|pwd         |   pppppp                   |That prints the current working dir              |
 |ls:         |                            |That lists the contents in a dir                 |
 |mkdir       |                            |makes a dir                                      |
 |rmdir       |                            |deletes a dir                                    |
