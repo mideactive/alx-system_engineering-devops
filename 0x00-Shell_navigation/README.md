@@ -5,20 +5,20 @@
 
 
 
-|Commanad    | Synopsis                   |            uses                                 |
-|------------|----------------------------|-------------------------------------------------|
-|cd          |change dir                  |cd [-L|[-P [-e]] [-@]] [dir]                     |
-|pwd         |print working dir           |pwd [OPTION]...                                  |
-|ls:         |                            |That lists the contents in a dir                 |
-|mkdir       |                            |makes a dir                                      |
-|rmdir       |                            |deletes a dir                                    |
-|touch       |                            |creates a file                                   |
-|rm          |                            |deletes a file                                   |
-|less        |                            |displays the contents of in text file            |       
-|cat         |                            |displays the contents in a file                  |
-|file        |                            |displays the kind of data a file contains        |
-|cp          |                            |copy from one file to another                    |
-|mv          |                            |move file contents from one location to another  |     
+|Commanad    | Uses                       |         Synopsis                                                           |
+|------------|----------------------------|----------------------------------------------------------------------------|
+|cd          |change dir                  |cd [-L|[-P [-e]] [-@]] [dir]                                                |
+|pwd         |print working dir           |pwd [OPTION]...                                                             |
+|ls:         |list file/dir               |ls [OPTION]... [FILE]...                                                    |
+|mkdir       |make dir                    | mkdir [OPTION]... DIRECTORY...                                             |
+|rmdir       |deletes dir                 |rmdir [OPTION]... DIRECTORY...                                              |
+|touch       |creates empty file          |touch [OPTION]... FILE...                                                   |
+|rm          |deletes file                |deletes a file                                                              |
+|less        |view text file              |less [options] [FILE]...                                                    |       
+|cat         |concatonate/print file      |cat [OPTION]... [FILE]...                                                   |
+|file        |determine file type         |file [option] [file]...                                                     |
+|cp          |copy files/dir              |cp [file|[flag]]dir] [destination]                                          |
+|mv          |move/rename files           |mv [option] [source][file/dir]                                              |     
      
      
 | Column 1 | Column 2 | Column 3 |
