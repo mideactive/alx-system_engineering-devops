@@ -255,6 +255,11 @@ You are not allowed to use sed or awk
 
 [100-empty_casks](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/100-empty_casks): 'find . -empty | rev | cut -d '/' -f 1 | rev' this will list all empty files, dir int the current dir, and all sub-dirs. And the rules requested above will be followed. 
 
+|Command    |Uses                                     |Synopsis                                       |
+|-----------|-----------------------------------------|-----------------------------------------------|
+|find       |find files/dir etc                       |find . -empty                                  |
+|rev        |print in reverse order                   |rev                                            |
+|cut        |extract section or column of a text file |cut -d '/' -f 1                                |
 
 ##### 24. A gif is worth ten thousand words
 
@@ -274,6 +279,6 @@ You are not allowed to use sed or awk
 |Command         |Uses                       |synopsis                                        |
 |----------------|---------------------------|------------------------------------------------|
 |find            |find file/dir etc          |find . -type f -name '*.gif' -printf "%f\n"     |
-|rev             |reverse text               |rev                                             |
+|rev             |print inreverse order      |rev                                             |
 |cut             |extract section or column of txt file|cut -d "/" -f 1                       |
 |LC_ALL=C sort -f|Alpha text sort and ignore case sensitivity                                 |
