@@ -274,7 +274,6 @@ You are not allowed to use sed or awk
 |Command         |Uses                       |synopsis                                        |
 |----------------|---------------------------|------------------------------------------------|
 |find            |find file/dir etc          |find . -type f -name '*.gif' -printf "%f\n"     |
-|rev             |                           |                                                |
-|cut             |                           |                                                |
-|sort            |                           |                                                |
+|rev             |reverse text               |rev                                             |
+|cut             |extract section or column of txt file|cut -d "/" -f 1                       |
 |LC_ALL=C sort -f|Alpha text sort and ignore case sensitivity                                 |
