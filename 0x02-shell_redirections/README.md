@@ -271,5 +271,9 @@ You are not allowed to use sed or awk
 # Solution:
 
 [101-gifs](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/101-gifs): "find . -type f -name '*.gif' -printf "%f\n | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f" 
-
-
+|Command        |Uses                       |synopsis                                        |
+|---------------|---------------------------|------------------------------------------------|
+|find           |                           |                                                |
+|rev            |                           |                                                |
+|cut            |                           |                                                |
+|sort           |                           |                                                |
