@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Check user argument provision
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <username>"
+  exit 1
+fi
+
+# Check if user exists
+if ! id -u $1 > /dev/null 2>&1; then
+  echo "User $1 not found"
+  exit 1
+fi
+
+# Run whoami command as the specified user
+sudo -u $1 whoami
