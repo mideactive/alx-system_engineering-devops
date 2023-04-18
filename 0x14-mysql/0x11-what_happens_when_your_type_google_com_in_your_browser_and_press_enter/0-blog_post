@@ -1,0 +1,27 @@
+Have you ever wondered what happens behind the scenes when you type a website URL into your browser and press Enter? In this blog post, we'll explore the journey that your request takes as it travels through the internet and different layers of the web stack to display the webpage you requested.
+
+DNS request:
+The first step is the Domain Name System (DNS) request. When you type a URL into your browser, it sends a DNS request to translate the domain name, in this case, "google.com," into an IP address, which is a unique identifier that allows computers to communicate with each other over the internet.
+
+TCP/IP:
+Once the browser knows the IP address of the website, it uses the Transmission Control Protocol (TCP) and Internet Protocol (IP) to establish a connection between the client (your computer) and the server (the computer hosting the website).
+
+Firewall:
+Before the request reaches the server, it may pass through a firewall. A firewall is a security mechanism that monitors and controls incoming and outgoing network traffic. It checks whether the request is legitimate and authorized to prevent unauthorized access to the server.
+
+HTTPS/SSL:
+Once the connection is established, the browser sends a request to the server for the webpage you requested. If the website uses HTTPS, the request is encrypted using the SSL/TLS protocol to ensure that sensitive information, such as passwords and credit card numbers, is protected from unauthorized access.
+
+Load-balancer:
+If the website receives a lot of traffic, it may have multiple servers to handle the load. A load-balancer is a device that distributes incoming traffic across multiple servers to ensure that no single server is overwhelmed.
+
+Web server:
+The request then reaches the web server, which processes the request and retrieves the necessary resources, such as HTML, CSS, and JavaScript files, to render the webpage. The server then sends the response back to the client in the form of an HTTP response.
+
+Application server:
+If the website has dynamic content, such as a login system, it may have an application server that handles this functionality. The application server interacts with the database to retrieve and store data as necessary.
+
+Database:
+Finally, the request may interact with the database to retrieve data, such as user account information or product details. The database stores and manages data for the website.
+
+In conclusion, when you type a website URL into your browser and press Enter, a lot of things happen behind the scenes to ensure that you can access the webpage you requested. Understanding how the web stack works can help you become a better software engineer and improve your ability to develop web applications that can scale and perform well.
