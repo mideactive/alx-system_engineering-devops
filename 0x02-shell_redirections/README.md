@@ -298,6 +298,6 @@ You are not allowed to use sed or awk
 [102-acrostic](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/102-acrostic): "cut -c 1 | paste -s -d ''" This bash command cuts and paste the first letter in every line in a text file without a newline.
 
 |command        |Uses                                    |Synopsis                                          |
-|---------------|-----------------------------------.....|--------------------------------------------------|
+|---------------|----------------------------------------|--------------------------------------------------|
 |cut            |remove sections from each line of files |cut OPTION... [FILE]...                           |
 |paste          |paste - merge lines of files            |paste [OPTION]... [FILE]...                       |
