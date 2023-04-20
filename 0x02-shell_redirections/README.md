@@ -303,3 +303,20 @@ You are not allowed to use sed or awk
 |paste          |paste - merge lines of files            |paste [OPTION]... [FILE]...                       |
 
 
+##### 26. The biggest fan
+
+    Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+
+        Order by number of requests, most active host or IP at the top
+        You are not allowed to use grep, egrep, fgrep or rgrep
+        
+#### Solution:
+
+[103-the_biggest_fan](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/103-the_biggest_fan): "awk '{arr[$1]++} END {for (arrs in arr) print arr[arrs], arrs}' | sort -rn | head -n 11 | cut -d' ' -f 2". awk extracts, loops through, print number of hosts, and the hostname itself that occure most. passed it to be sorted in numeric order, and also in reversal. Then the first 11 lines is displayed. Lastly, we use the 'cut' command to extract the exact column that is required.
+
+|Command              |Use                                       |synopsis                                                               |
+|---------------------|------------------------------------------|-----------------------------------------------------------------------|
+|Awk                  |pattern scanning and processing language  |awk [ POSIX or GNU style options ] -f program-file [ -- ] file ...     |
+|sort                 |sort lines of text files                  |sort [OPTION]... [FILE]...                                             |
+|head                 |Returns the first ten lines in a text file|head [options]... [FILE]...                                            |
+|cut                  |extracts specified column(s) from a text file| cut [options]... [FILE]...                                         |
