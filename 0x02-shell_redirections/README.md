@@ -282,3 +282,22 @@ You are not allowed to use sed or awk
 |rev             |print inreverse order      |rev                                             |
 |cut             |extract section or column of txt file|cut -d "/" -f 1                       |
 |LC_ALL=C sort -f|Alpha text sort and ignore case sensitivity                                 |
+
+
+##### 25. Acrostic
+
+    An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring        feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As    a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. Read more.
+
+        Create a script that decodes acrostics that use the first letter of each line.
+
+            The ‘decoded’ message has to end with a new line
+            You are not allowed to use grep, egrep, fgrep or rgrep
+            
+#### Soluiton:
+
+[102-acrostic](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x02-shell_redirections/102-acrostic): "cut -c 1 | paste -s -d ''" This bash command cuts and paste the first letter in every line in a text file without a newline.
+
+|command        |Uses                                    |Synopsis                                          |
+|---------------|-----------------------------------.....|--------------------------------------------------|
+|cut            |remove sections from each line of files |cut OPTION... [FILE]...                           |
+|paste          |paste - merge lines of files            |paste [OPTION]... [FILE]...                       |
