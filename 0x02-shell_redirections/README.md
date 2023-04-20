@@ -301,3 +301,5 @@ You are not allowed to use sed or awk
 |---------------|----------------------------------------|--------------------------------------------------|
 |cut            |remove sections from each line of files |cut OPTION... [FILE]...                           |
 |paste          |paste - merge lines of files            |paste [OPTION]... [FILE]...                       |
+
+
