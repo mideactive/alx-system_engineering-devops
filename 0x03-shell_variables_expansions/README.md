@@ -26,3 +26,13 @@ All your files must be executable
 #### Solution:
   
 [0-alias](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/0-alias) 'alias ls="rm *" written in a bash script will the alis 'ls'.   
+
+  
+  
+##### 1. Hello you
+
+    Create a script that prints hello user, where user is the current Linux user.
+  
+#### Solution:
+  
+[1-hello_you](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/1-hello_you): 'echo "hello $USER"' in a shell script will print the word 'hello' followed by the current use name.    
