@@ -14,3 +14,15 @@ You are not allowed to use &&, || or ;
 You are not allowed to use bc, sed or awk
 All your files must be executable
 
+
+
+##### 0.Task <o>
+
+  Create a script that creates an alias.
+
+    Name: ls
+    Value: rm *
+  
+#### Solution:
+  
+[0-alias](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/0-alias) 'alias ls="rm *" written in a bash script will the alis 'ls'.   
