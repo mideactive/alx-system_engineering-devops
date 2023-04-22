@@ -36,3 +36,17 @@ All your files must be executable
 #### Solution:
   
 [1-hello_you](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/1-hello_you): 'echo "hello $USER"' in a shell script will print the word 'hello' followed by the current use name.    
+
+
+##### 2. The path to success is to take massive, determined action
+
+          Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+          
+#### Solution:
+
+[2-path](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/2-path):'export PAth=$PATH:/action' this script will temporarily add the '/action' dir to '$PATH'. To make it pamanent, it should be added to the ~/.bashrc file.
+
+
+
+
+
