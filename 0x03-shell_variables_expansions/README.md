@@ -82,3 +82,18 @@ All your files must be executable
 [5-local_variables](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/5-local_variables): "set | less" will display the local variables.
   
   
+##### 6. Local variable
+
+      Create a script that creates a new local variable.
+        Name: BEST
+        Value: School
+  
+#### Solurion:
+  
+[6-create_local_variable](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/6-create_local_variable): 'set BEST="School"' this line of code in a bash script will set 'BEST' as a local variable with the value 'School'
+  
+  
+  
+  
+
+
