@@ -188,4 +188,19 @@ All your files must be executable
 [export DECIMAL=16 && printf "%x\n" $DECIMAL](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/100-decimal_to_hexadecimal): 'export DECIMAL=16 && printf "%x\n" $DECIMAL' this code will create a 'DECIMAL' global variable, and the 'printf "%x\n"' will convert it to base 16.
   
   
+##### 15. Everyone is a proponent of strong encryption
+
+        Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
   
+#### Solution:
+  
+[101-rot13](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/101-rot13): "tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`" This line of code will convert the line of text to rot13.
+  
+  
+##### 16. The eggs of the brood need to be an odd number
+
+        Write a script that prints every other line from the input, starting with the first line.
+  
+#### Solution:
+  
+[102-odd](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/102-odd): 'perl -lne 'print if $. % 2 == 1' a perl code to perform the above task.   
