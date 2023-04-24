@@ -138,4 +138,16 @@ All your files must be executable
 [10-love_exponent_breath](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/10-love_exponent_breath): 'export BREATH=4   && export LOVE=3  && echo $((BREATH**LOVE))' the line of code will create global variable 'BREATH', 'LOVE', and return the result of 'BREATH exponential LOVE'.
   
   
+11. There are 10 types of people in the world -- Those who understand binary, and those who don't
+
+        Write a script that converts a number from base 2 to base 10.
+
+          The number in base 2 is stored in the environment variable BINARY
+          The script should display the number in base 10, followed by a new line
+  
+##### Soluiton:
+  
+[11-binary_to_decimal](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/11-binary_to_decimal): 'export BINARY=10100111001 && echo "$((2#$BINARY))"' This line of code in a bash script will create a global variable 'BINARY', and use the '2#' to convert it to base 10.
+  
+
   
