@@ -44,7 +44,7 @@ All your files must be executable
           
 #### Solution:
 
-[2-path](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/2-path):'export PAth=$PATH:/action' this script will temporarily add the '/action' dir to '$PATH'. To make it pamanent, it should be added to the ~/.bashrc file.
+[2-path](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/2-path): 'export PATH=$PATH:/action' this script will temporarily add the '/action' dir to '$PATH'. To make it pamanent, it should be added to the ~/.bashrc file.
 
 
 
@@ -54,5 +54,10 @@ All your files must be executable
   
 #### Solution:
   
-[](): ''  
+[3-paths](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/3-paths): "echo $PATH | tr ':' '\n' | wc -l" this code used in a bash script with display the '$PATH', breaks the '$PATH' into lines, and count the number of lines in the script.
 
+|COmmand      |Uses                                                   |Synopsis                                                    |
+|-------------|-------------------------------------------------------|------------------------------------------------------------|
+|echo         |Use to dislay text to standard output                  |echo [options] [FILE.txt]                                   |
+|tr           |Translates of deletes character(s)                     |tr [option] "character_to_be replaced" "subtitude           |
+|wc           |print newline, word, and byte counts for each file     |wc [options] [FILE]                                         |
