@@ -93,7 +93,16 @@ All your files must be executable
 [6-create_local_variable](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/6-create_local_variable): 'set BEST="School"' this line of code in a bash script will set 'BEST' as a local variable with the value 'School'
   
   
+##### 7. Global variable
+
+      Create a script that creates a new global variable.
+
+        Name: BEST
+        Value: School
   
+#### Solution:
+  
+[6-create_local_variable](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/6-create_local_variable): 'export BEST="School"' will create a global variable 'BEST' with the value 'School'.
   
 
-
+  
