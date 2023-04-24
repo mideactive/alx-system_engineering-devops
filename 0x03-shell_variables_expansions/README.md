@@ -165,4 +165,16 @@ All your files must be executable
 [12-combinations](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/12-combinations): "echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'" this line of code in a bash script will print 'a to z' twice, print every role on a new line, and delete 'oo' from the result.
   
 
+##### 13. Floats
+
+            Write a script that prints a number with two decimal places, followed by a new line.
+
+            The number will be stored in the environment variable NUM.
   
+#### Solution:
+  
+[13-print_float](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/13-print_float): 'export NULL= && printf "%.2f\n" $NUM' this line of code will create an env variable, and print the value stored in 'NUM' in two decimal places.
+  
+  
+  
+
