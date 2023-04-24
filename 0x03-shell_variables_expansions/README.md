@@ -73,4 +73,12 @@ All your files must be executable
 [4-global_variables](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/4-global_variables): "printenv" or "env" will list global or environment variables.
   
   
+##### 5. Local variables
+
+      Create a script that lists all local variables and environment variables, and functions.
+  
+#### Solution:
+  
+[5-local_variables](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/5-local_variables): "set | less" will display the local variables.
+  
   
