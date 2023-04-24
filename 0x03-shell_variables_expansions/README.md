@@ -176,5 +176,16 @@ All your files must be executable
 [13-print_float](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/13-print_float): 'export NULL= && printf "%.2f\n" $NUM' this line of code will create an env variable, and print the value stored in 'NUM' in two decimal places.
   
   
-  
+##### 14. Decimal to Hexadecimal
 
+          Write a script that converts a number from base 10 to base 16.
+
+          The number in base 10 is stored in the environment variable DECIMAL
+          The script should display the number in base 16, followed by a new line
+  
+#### Solution:
+  
+[export DECIMAL=16 && printf "%x\n" $DECIMAL](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/100-decimal_to_hexadecimal): 'export DECIMAL=16 && printf "%x\n" $DECIMAL' this code will create a 'DECIMAL' global variable, and the 'printf "%x\n"' will convert it to base 16.
+  
+  
+  
