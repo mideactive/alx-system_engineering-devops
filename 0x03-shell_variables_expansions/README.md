@@ -112,7 +112,7 @@ All your files must be executable
   
 #### Solution:
   
-[8-true_knowledge](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/8-true_knowledge): 'export TRUEKNOWLEDGE=1209 &&  echo $(($TRUEKNOWLEDGE + 128))' this will create the global variable 'TRUEKNOWLEDGE' with the value '1209', and then add '128' to it.
+[8-true_knowledge](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/8-true_knowledge): 'export TRUEKNOWLEDGE=1209 &&  echo $((TRUEKNOWLEDGE + 128))' this will create the global variable 'TRUEKNOWLEDGE' with the value '1209', and then add '128' to it.
   
   
 ##### 9. Divide and rule
@@ -126,4 +126,16 @@ All your files must be executable
 [9-divide_and_rule](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/9-divide_and_rule): 'export POWER=42784 && export DIVIDE=32 && echo $((POWER / DIVIDE))' this line of code will create global variable 'POWER', 'DIVIDE', and divide both values to give us a result. 
 
   
-    
+##### 10. Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
+
+          Write a script that displays the result of BREATH to the power LOVE
+
+            BREATH and LOVE are environment variables
+            The script should display the result, followed by a new line
+  
+#### Solution:
+  
+[10-love_exponent_breath](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/10-love_exponent_breath): 'export BREATH=4   && export LOVE=3  && echo $((BREATH**LOVE))' the line of code will create global variable 'BREATH', 'LOVE', and return the result of 'BREATH exponential LOVE'.
+  
+  
+  
