@@ -115,4 +115,15 @@ All your files must be executable
 [8-true_knowledge](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/8-true_knowledge): 'export TRUEKNOWLEDGE=1209 &&  echo $(($TRUEKNOWLEDGE + 128))' this will create the global variable 'TRUEKNOWLEDGE' with the value '1209', and then add '128' to it.
   
   
-#####   
+##### 9. Divide and rule
+
+        Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+
+          POWER and DIVIDE are environment variables
+  
+#### Solution:
+  
+[9-divide_and_rule](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/9-divide_and_rule): 'export POWER=42784 && export DIVIDE=32 && echo $((POWER / DIVIDE))' this line of code will create global variable 'POWER', 'DIVIDE', and divide both values to give us a result. 
+
+  
+    
