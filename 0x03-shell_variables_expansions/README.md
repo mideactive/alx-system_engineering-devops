@@ -102,7 +102,17 @@ All your files must be executable
   
 #### Solution:
   
-[6-create_local_variable](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/6-create_local_variable): 'export BEST="School"' will create a global variable 'BEST' with the value 'School'.
+[7-create_global_variable](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/7-create_global_variable): 'export BEST="School"' will create a global variable 'BEST' with the value 'School'.
+  
   
 
+##### 8. Every addition to true knowledge is an addition to human power
+
+    Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new         line.
   
+#### Solution:
+  
+[8-true_knowledge](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/8-true_knowledge): 'export TRUEKNOWLEDGE=1209 &&  echo $(($TRUEKNOWLEDGE + 128))' this will create the global variable 'TRUEKNOWLEDGE' with the value '1209', and then add '128' to it.
+  
+  
+#####   
