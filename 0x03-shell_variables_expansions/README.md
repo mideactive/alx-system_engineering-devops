@@ -150,4 +150,19 @@ All your files must be executable
 [11-binary_to_decimal](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/11-binary_to_decimal): 'export BINARY=10100111001 && echo "$((2#$BINARY))"' This line of code in a bash script will create a global variable 'BINARY', and use the '2#' to convert it to base 10.
   
 
+##### 12. Combination
+
+      Create a script that prints all possible combinations of two letters, except oo.
+
+        Letters are lower cases, from a to z
+        One combination per line
+        The output should be alpha ordered, starting with aa
+        Do not print oo
+        Your script file should contain maximum 64 characters
+  
+#### Solution:
+  
+[12-combinations](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/12-combinations): "echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'" this line of code in a bash script will print 'a to z' twice, print every role on a new line, and delete 'oo' from the result.
+  
+
   
