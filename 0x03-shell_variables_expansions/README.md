@@ -61,3 +61,16 @@ All your files must be executable
 |echo         |Use to dislay text to standard output                  |echo [options] [FILE.txt]                                   |
 |tr           |Translates of deletes character(s)                     |tr [option] "character_to_be replaced" "subtitude           |
 |wc           |print newline, word, and byte counts for each file     |wc [options] [FILE]                                         |
+
+  
+  
+##### 4. Global variables
+
+      Create a script that lists environment variables.
+  
+#### Solution:
+  
+[4-global_variables](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/4-global_variables): "printenv" or "env" will list global or environment variables.
+  
+  
+  
