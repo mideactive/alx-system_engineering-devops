@@ -204,3 +204,16 @@ All your files must be executable
 #### Solution:
   
 [102-odd](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/102-odd): 'perl -lne 'print if $. % 2 == 1' a perl code to perform the above task.   
+
+
+##### 17. I'm an instant star. Just add water and stir.
+
+      Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+
+          WATER is in base water
+          STIR is in base stir.
+          The result should be in base bestchol
+          
+#### Solution:
+
+[103-water_and_stir](https://github.com/mideactive/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/103-water_and_stir): "echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')"
