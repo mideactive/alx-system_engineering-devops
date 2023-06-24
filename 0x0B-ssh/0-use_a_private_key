@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that connects ssh key to my sever.
+#!/bin/bash
+ssh -i ~/.ssh/school ubuntu@54.167.84.232 
