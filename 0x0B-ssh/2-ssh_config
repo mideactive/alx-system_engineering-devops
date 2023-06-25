@@ -1,6 +1,6 @@
 # Create or update the SSH client configuration
 cat <<EOT >> ~/.ssh/config
-Host your_server_ip
+Host 197.211.61.99
   IdentityFile ~/.ssh/school
   PasswordAuthentication no
 EOT
