@@ -1,46 +1,6 @@
 # Installing and configuring nginx server
 
-class nginx {
-  package { 'nginx':
-    ensure => installed,
-  }
-
-  service { 'nginx':
-    ensure => running,
-    enable => true,
-    require => Package['nginx'],
-  }
-
-  file { '/var/www/html/index.html':
-    ensure  => file,
-    content => "Hello World!\n",
-    require => Package['nginx'],
-  }
-
-  file { '/etc/nginx/sites-available/default':
-    ensure  => present,
-    content => 'server {
-                  listen 80 default_server;
-                  listen [::]:80 default_server;
-                  server_name _;
-
-                  location = /redirect_me {
-                    return 301 https://www.tcinfo.com/new-page;
-                  }
-
-                  location / {
-                    root /var/www/html;
-                  }
-                }',
-    notify => Service['nginx'],
-  }
-
-  file { '/etc/nginx/sites-enabled/default':
-    ensure  => 'link',
-    target  => '/etc/nginx/sites-available/default',
-    require => File['/etc/nginx/sites-available/default'],
-    notify  => Service['nginx'],
-  }
+exec { 'server configuration':
+  provider => shell,
+  command  => 'sudo apt-get -y update; sudo apt-get -y install nginx; echo "Best School" > /var/www/html/index.html; sudo sed -i "/server_name _;/a location /redirect_me {\\n\\treturn 301 https://google.com;\\n\\t}\\n" /etc/nginx/sites-available/default; sudo service nginx restart',
 }
-
-class { 'nginx': }
