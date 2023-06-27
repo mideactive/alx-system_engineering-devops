@@ -12,7 +12,7 @@ class nginx {
   }
 
   file { '/var/www/html/index.html':
-    ensure  => present,
+    ensure  => 'file',
     content => "Hello World!\n",
     require => Package['nginx'],
   }
