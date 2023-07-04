@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# Install necessary tools
+sudo apt-get update
+sudo apt-get -y install net-tools curl
+
+# Check Nginx status
+sudo service nginx status
+
+# Edit Nginx configuration file
+sudo sed -i 's/listen\s*80;/listen 80;/' /etc/nginx/nginx.conf
+
+# Check if port 80 is open and being listened to by Nginx
+sudo netstat -tuln | grep 80
+
+# Check system firewall settings
+sudo ufw status
+
+# Allow incoming connections on port 80 if firewall is enabled
+sudo ufw allow 80
+
+# Restart Nginx service
+sudo service nginx restart
+
+# Verify Nginx is listening on port 80
+curl 0:80
