@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Sort code to failed to connect to port 80:
+sudo apt-get -qq update
+sudo apt-get -qq install -y nginx
+sudo sed -i 's/listen\s*80;/listen 80;/' /etc/nginx/nginx.conf
+sudo nginx -t
+sudo service nginx restart
