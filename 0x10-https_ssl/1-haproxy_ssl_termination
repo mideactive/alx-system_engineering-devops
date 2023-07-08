@@ -43,12 +43,14 @@ frontend www-http
     default_backend web-backend
 
 frontend www-https
-    bind *:443 ssl crt /etc/haproxy/ssl/www.lucidsky.tech.pem
+    bind *:443 ssl crt /etc/haproxy/ssl/lucidsky.tech.pem
     reqadd X-Forwarded-Proto:\ https
+    acl is-root path -i /
+    http-request set-var(txn.base) var(req.hdr(Host),lower) if is-root
+    http-response set-header X-HolbertonSchool "Holberton School" if { var(txn.base) -m beg www.lucidsky.tech }
     default_backend web-backend
 
 backend web-backend
     balance roundrobin
-    redirect scheme https if !{ ssl_fc }
     server web1 54.167.84.232:80 check
     server web2 18.207.1.128:80 check
