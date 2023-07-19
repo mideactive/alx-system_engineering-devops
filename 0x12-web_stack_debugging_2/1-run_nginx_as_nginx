@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Configure a broken container to work with nginx at port 8080
+# Update Nginx configuration file
+sed -i 's/user\s*nginx;/user nginx nginx;/' /etc/nginx/nginx.conf
+
+# Update Nginx site configuration
+sed -i 's/listen\s*80;/listen 8080;/' /etc/nginx/sites-available/default
+
+# Restart Nginx service
+service nginx restart
