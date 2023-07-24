@@ -44,9 +44,9 @@ def display_data(employee_id):
     Args:
         employee_id (int): The ID of the employee.
     """
-    emp_name, done_tasks, total_tasks, task_titles = gather_data(employee_id)
+    employee_name, done_tasks, total_tasks, task_titles = gather_data(employee_id)
 
-    print(f"Employee {emp_name} is done with\
+    print(f"Employee {employee_name} is done with\
             tasks({done_tasks}/{total_tasks}):")
     for title in task_titles:
         print("\t", title)
