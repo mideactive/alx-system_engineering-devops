@@ -6,6 +6,7 @@ Module to gather data from an API for a given employee ID.
 import requests
 import sys
 
+
 def gather_data(employee_id):
     """
     Gather data from the API for the given employee ID.
@@ -14,7 +15,8 @@ def gather_data(employee_id):
         employee_id (int): The ID of the employee.
 
     Returns:
-        tuple: A tuple containing the employee name, number of completed tasks,
+        tuple: A tuple containing the employee name,
+        number of completed tasks,
         total number of tasks, and a list of completed task titles.
     """
     base_url = "https://jsonplaceholder.typicode.com"
@@ -31,7 +33,9 @@ def gather_data(employee_id):
     total_tasks = len(todo_data)
     done_tasks = [task for task in todo_data if task.get("completed")]
 
-    return (employee_name, len(done_tasks), total_tasks, [task.get("title") for task in done_tasks])
+    return (employee_name, len(done_tasks), total_tasks,
+            [task.get("title") for task in done_tasks])
+
 
 def display_data(employee_id):
     """
@@ -40,15 +44,18 @@ def display_data(employee_id):
     Args:
         employee_id (int): The ID of the employee.
     """
-    employee_name, done_tasks, total_tasks, task_titles = gather_data(employee_id)
+    emp_name, done_tasks, total_tasks, task_titles = gather_data(employee_id)
 
-    print(f"Employee {employee_name} is done with tasks({done_tasks}/{total_tasks}):")
+    print(f"Employee {emp_name} is done with\
+            tasks({done_tasks}/{total_tasks}):")
     for title in task_titles:
         print("\t", title)
 
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 0-gather_data_from_an_API.py <employee_id>")
+        print("Usage: python3 0-gather_data_from_an_API.py\
+                <employee_id>")
         sys.exit(1)
 
     try:
