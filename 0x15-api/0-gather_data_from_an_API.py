@@ -33,8 +33,7 @@ def gather_data(employee_id):
     total_tasks = len(todo_data)
     done_tasks = [task for task in todo_data if task.get("completed")]
 
-    return (employee_name, len(done_tasks), total_tasks,
-            [task.get("title") for task in done_tasks])
+    return (employee_name, len(done_tasks), total_tasks, [task.get("title") for task in done_tasks])
 
 
 def display_data(employee_id):
@@ -46,16 +45,14 @@ def display_data(employee_id):
     """
     employee_name, done_tasks, total_tasks, task_titles = gather_data(employee_id)
 
-    print(f"Employee {employee_name} is done with\
-            tasks({done_tasks}/{total_tasks}):")
+    print(f"Employee {employee_name} is done with tasks({done_tasks}/{total_tasks}):")
     for title in task_titles:
         print("\t", title)
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 0-gather_data_from_an_API.py\
-                <employee_id>")
+        print("Usage: python3 0-gather_data_from_an_API.py <employee_id>")
         sys.exit(1)
 
     try:
