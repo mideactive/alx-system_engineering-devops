@@ -29,7 +29,3 @@ def recurse(subreddit, hot_list=[], after=None):
     if after is not None:
         return recurse(subreddit, hot_list, after)
     return hot_list
-
-
-if __name__ == '__main__':
-    pass
